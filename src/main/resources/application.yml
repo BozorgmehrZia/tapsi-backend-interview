@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: @project.artifactId@
+  cache:
+    type: none
+
+server:
+  port: ${SERVER_PORT:30014}
+  shutdown: graceful
+
+info:
+  app:
+    name: @project.artifactId@
+    version: @project.version@
+
